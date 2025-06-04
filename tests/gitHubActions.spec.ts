@@ -31,7 +31,7 @@ console.log("Starting Practice Test 4");
 await page.goto("https://www.saucedemo.com/");
 console.log(await page.title());
 expect(page).toHaveTitle("Swag Labs")
-console.log("Ending Practice Test 4");
+console.log("Ending Practice Test 4.");
 
 })
 
